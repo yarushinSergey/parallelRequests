@@ -1,0 +1,9 @@
+
+<div>
+  <button (click)="sendProcessRequests()" [disabled]="!paramsReceived">Отправить</button>
+</div>
+
+<ul>
+  <li *ngFor="let logItem of logs">{{logItem}}</li>
+</ul>
+
